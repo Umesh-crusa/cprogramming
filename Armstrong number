@@ -1,0 +1,25 @@
+# cprogramming
+c-programs 
+#include<stdio.h>
+int main(){
+int b=0,c,no,i,sto=0;
+printf("Enter the number");
+scanf("%d",&no);
+    i=no;
+    while(no>0)
+    {
+        sto=no%10;
+        b=b+(sto*sto*sto);
+        no=no/10;
+    }
+   
+    if(i==b)
+    {
+        printf("arm no");
+    }
+    else
+    {
+        printf("no arm");
+    }
+return 0;
+}
