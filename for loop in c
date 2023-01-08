@@ -1,0 +1,14 @@
+# cprogramming
+c-programming
+#include<stdio.h>
+//umeshcoder
+int main(){
+int no,i;
+printf("Enter the number=> ");
+scanf("%d",&no);
+for(i=1;i<=no;i++)
+{
+    printf("%d",i);
+}
+return 0;
+}
