@@ -1,0 +1,20 @@
+# cprogramming
+c-programming
+#include<stdio.h>
+//umeshcoder
+void callbyrefrence(int *a,int *b);
+int main(){
+    int a,b;
+    printf("Enter the number a:");
+    scanf("%d",&a);
+    printf("Enter the number b:");
+    scanf("%d",&b);
+  callbyrefrence(&a,&b);
+return 0;
+}
+callbyrefrence(int *x,int *y)
+{
+    int sum;
+    sum=*x+*y;
+    printf("sum==>%d",sum);
+}
