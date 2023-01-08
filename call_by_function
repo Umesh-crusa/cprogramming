@@ -1,0 +1,21 @@
+# cprogramming
+c-programming
+#include<stdio.h>
+void sum(int a,int b);//call by function 
+int main()
+{
+int a,b;
+printf("Enter the number");
+scanf("%d",&a);
+printf("Enter the number");
+scanf("%d",&b);
+sum(a,b);//value copy
+
+return 0;
+}
+void sum (int x,int y)//cop values input another varible
+{
+    int sto=x+y;
+    printf("sum==>%d",sto);
+
+}
