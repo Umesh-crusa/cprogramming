@@ -1,0 +1,17 @@
+# cprogramming
+c-programming
+#include<stdio.h>
+//umeshcoder
+int main(){
+int amount,time,rate;
+printf("Enter the amount => ");
+scanf("%d",&amount);
+printf("Enter the time => ");
+scanf("%d",&time);
+printf("Enter the rate => ");
+scanf("%d",&rate);
+int stor=(amount*rate*time)/100;
+int inter=amount+stor;
+printf("your interest==%d amount  =%d",stor,inter);
+return 0;
+}
