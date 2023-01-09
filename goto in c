@@ -1,0 +1,17 @@
+# cprogramming
+c-programming
+#include<stdio.h>
+//umeshcoder
+int main(){
+int no,i=1;
+printf("Enter the  number ");
+scanf("%d",&no);
+start:
+printf("%d\n",i);
+i++;
+if(i<=no)
+{
+goto start;
+}
+return 0;
+}
