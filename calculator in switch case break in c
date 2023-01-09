@@ -1,0 +1,42 @@
+# cprogramming
+c-programming
+#include<stdio.h>
+//umeshcoder
+int main(){
+int a,b;
+char calcu;
+char c;
+start:
+printf("what do want + * - /   \n");
+scanf("%s",&calcu);
+printf("Enter the number==> ");
+scanf("%d",&a);
+printf("Enter the number==> ");
+scanf("%d",&b);
+switch(calcu)
+{
+      case '+': printf("sum==> %d\n",a+b);
+      break;
+      
+      case '-': printf("minus==> %d\n",a-b);
+      break;
+      
+      case '*': printf("multiply==> %d\n",a*b);
+      break;
+      
+      case '/': printf("divide==> %d\n",a/b);
+      break;
+      
+      case '%': printf("percentage==> %d\n",a%b);
+      break;
+      default: printf("***false***");
+   break;
+}
+printf("do you want * - + /    Enter  yas=  Y or not= n\n");
+scanf("%s",&c);
+if(c=='y')
+{
+    goto start;
+}
+return 0;
+}
