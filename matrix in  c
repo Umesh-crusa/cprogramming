@@ -1,0 +1,62 @@
+# cprogramming
+c-programming
+#include<stdio.h>
+//umeshcoder
+int main(){
+ int array[2][2],array1[2][2],i,j,arr[2][2];
+printf("Enter the no 2:");
+//scanf("%d"int&no);
+for(i=0;i<2;i++)
+     {
+        for(j=0;j<2;j++)
+        {
+            scanf("%d",&array[i][j]);
+        }
+     }
+     printf("Enter the no 2 second matric:");
+     
+     for(i=0;i<2;i++)
+     {
+        for(j=0;j<2;j++)
+        {
+            scanf("%d",&array1[i][j]);
+        }
+     }
+   for(i=0;i<2;i++)
+     {
+        printf("\n");
+        for(j=0;j<2;j++)
+           {
+            printf("%d\t",array[i][j]);
+           }
+     }
+   printf("output 2 second matric:\n\n");
+     
+     
+   for(i=0;i<2;i++)
+     {
+        printf("\n");
+        for(j=0;j<2;j++)
+           {
+            printf("%d\t",array1[i][j]);
+           }
+     }
+     printf("add matrix");
+     for(i=0;i<2;i++)
+     {
+        printf("\n");
+        for(j=0;j<2;j++)
+        {
+        arr[i][j]=array[i][j]+array1[i][j];
+     }
+     }
+     for(i=0;i<2;i++)
+     {
+        printf("\n");
+        for(j=0;j<2;j++)
+        {
+            printf("%d\t",arr[i][j]);
+        }
+     }
+return 0;
+}
