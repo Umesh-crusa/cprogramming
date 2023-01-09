@@ -1,0 +1,25 @@
+# cprogramming
+c-programming
+#include<stdio.h>
+//umeshcoder
+int main(){
+ int array[2][2],i,j;
+printf("Enter the no 2:");
+//scanf("%d"int&no);
+for(i=0;i<2;i++)
+     {
+        for(j=0;j<2;j++)
+        {
+            scanf("%d",&array[i][j]);
+        }
+     }
+   for(i=0;i<2;i++)
+     {
+        printf("\n");
+        for(j=0;j<2;j++)
+           {
+            printf("%d\t",array[i][j]);
+           }
+     }
+return 0;
+}
