@@ -1,0 +1,22 @@
+# cprogramming
+c-programs 
+#include<stdio.h>
+int main(){
+int i,no;
+printf("Enter the number ==> ");
+scanf("%d",&no);
+for(i=2;i<=no;i++)
+{
+     if(no%i==0)
+     break;
+}
+if(i==no)
+{
+    printf(" It is prim number");
+}
+    else
+    {
+    printf("It is not prim number");
+}
+return 0;
+}
